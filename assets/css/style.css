@@ -388,7 +388,7 @@ section {
   height: 100vh;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/* @import url(https://fonts.googleapis.com/css?family=Poiret+One); */
 .social {
   margin: 0 auto;
   width: auto;
