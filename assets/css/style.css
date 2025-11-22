@@ -498,6 +498,30 @@ section {
   width: 100%;
 }
 
+.section-title-latest-news {
+  padding-bottom: 0px;
+}
+.section-title-latest-news h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title-latest-news h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #031c28;
+  bottom: 0;
+  left: 0;
+}
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
