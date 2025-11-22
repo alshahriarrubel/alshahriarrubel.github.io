@@ -340,7 +340,8 @@ section {
 --------------------------------------------------------------*/
 
 #intro.section {
-  background: #0ababd repeat;
+  /* background: #0ababd repeat; */
+  background: #ffffff repeat;
   position: relative;
 }
 
