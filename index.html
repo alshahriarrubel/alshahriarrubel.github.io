@@ -78,7 +78,7 @@
           <div class="">
             <div class="caption">
               <h2>Hi, I am <span class="teal">Al Shahriar Rubel</span></h2>
-              <h5 style="color:#fff">Research Interests: <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5 style="color:#080e2f">Research Interests: <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
               <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
               <h6>PhD Candidate in the Department of Informatics, New Jersey Institute of Technology (NJIT), Newark, NJ, USA</h6>
             </div>
@@ -614,8 +614,19 @@
   </main>
   <!-- End #main -->
 
-
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- typed.js-->
+  
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Medical AI", "Computer Vision (CV)", "Natural Language Processing (NLP)"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
