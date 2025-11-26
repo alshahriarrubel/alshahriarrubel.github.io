@@ -341,14 +341,17 @@ h6 {
 #intro {
   background-color: #ffffff;
 }
-
+#intro .swiper {
+    width: 100%;
+    height: auto;
+  }
 #intro .intro-slider img {
   width: 80%;
 }
 
 #intro .intro-slider .swiper-pagination {
-  margin-top: 40px;
-  position: relative;
+  margin-top: 1px;
+  position: relative !important;
 }
 
 #intro .intro-slider .swiper-pagination .swiper-pagination-bullet {
