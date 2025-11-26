@@ -338,6 +338,30 @@ h6 {
   background-color: #00796b;
 }
 
+
+
+.home-slider img {
+  width: 40%;
+}
+
+.home-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.home-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #149ddd;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #149ddd;
+}
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
