@@ -338,20 +338,20 @@ h6 {
   background-color: #00796b;
 }
 
-.intro {
+#intro {
   background-color: #ffffff;
 }
 
-.intro .intro-slider img {
+#intro .intro-slider img {
   width: 100%;
 }
 
-.intro .intro-slider .swiper-pagination {
+#intro .intro-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.intro .intro-slider .swiper-pagination .swiper-pagination-bullet {
+#intro .intro-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -359,7 +359,7 @@ h6 {
   border: 1px solid #149ddd;
 }
 
-.intro .intro-slider .swiper-pagination .swiper-pagination-bullet-active {
+#intro .intro-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
 
