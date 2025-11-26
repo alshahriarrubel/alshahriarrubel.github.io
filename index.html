@@ -19,17 +19,37 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- Swiper CSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
   <style>
     .swiper {
       width: 100%;
       height: auto;
-      align-items: center;
     }
 
+    /* Place pagination below slides */
     .swiper-pagination {
       position: relative !important;
       margin-top: 10px;
       text-align: center;
+    }
+
+    /* Position navigation buttons below the slider */
+    .swiper-button-next,
+    .swiper-button-prev {
+      position: relative;
+      top: 0;
+      margin-top: 15px;
+      color: black; /* change color if needed */
+    }
+
+    /* Center both navigation buttons */
+    .nav-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 40px; /* space between arrows */
     }
   </style>
 
