@@ -367,23 +367,6 @@ h6 {
 }
 
 
-.swiper {
-  width: 100%;
-  height: auto;
-}
-
-.swiper .swiper-slide img{
-  width: 100%;
-  height: auto;
-  align-items: center;
-}
-
-/* Place pagination below slides */
-.swiper-pagination {
-  position: relative !important;
-  margin-top: 10px;
-  text-align: center;
-}
 
 /*--------------------------------------------------------------
 # Sections General
