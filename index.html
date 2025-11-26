@@ -166,8 +166,9 @@
 
             -->
 
-              <!-- Swiper container -->
+              <!-- Swiper Container -->
               <div class="swiper">
+
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">Slide 1</div>
                   <div class="swiper-slide">Slide 2</div>
@@ -178,22 +179,29 @@
                 <div class="swiper-pagination"></div>
               </div>
 
+              <!-- Navigation buttons -->
+              <div class="nav-wrapper">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+
               <!-- Swiper JS -->
               <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-              <!-- Inline JavaScript instead of external file -->
+              <!-- Inline JS -->
               <script>
                 const swiper = new Swiper(".swiper", {
                   pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
                   },
-                  // Add other options if needed:
-                  loop: true,
-                  autoplay: { delay: 2000 },
-                  navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                  loop: true,  // optional
                 });
-              </script>  
+              </script> 
 
             </div>
           </div>
